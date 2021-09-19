@@ -32,6 +32,8 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    'bootstrap-css-only/css/bootstrap.min.css',
+    'mdbvue/lib/css/mdb.min.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
