@@ -15,7 +15,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'noukotsubo',
+    title: 'Noukotsubo',
     htmlAttrs: {
       lang: 'en'
     },
@@ -26,12 +26,16 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: '/mdb5/css/mdb.min.css' }
     ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [
+  css: [],
+
+  script: [
+    { src: 'mdb5/js/mdb.min.js'},
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
