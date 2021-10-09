@@ -28,15 +28,14 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', href: '/mdb5/css/mdb.min.css' }
-    ]
+    ],
+      script: [
+        { src: '/mdb5/js/mdb.min.js'},
+      ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [],
-
-  script: [
-    { src: 'mdb5/js/mdb.min.js'},
-  ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
