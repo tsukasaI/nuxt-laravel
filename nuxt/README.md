@@ -1,4 +1,4 @@
-# nokotsubo
+# noukotsubo
 
 ## Build Setup
 
